@@ -1,14 +1,14 @@
-h1{
+h1 {
     text-align: center;
 }
 
-.entrada{
+.entrada {
     display: flex;
     gap: 10px;
     margin-top: 10px;
 }
 
-#chat{
+#chat {
     border: 1px solid #ccc;
     height: 60vh;
     border-radius: 10px;
@@ -19,7 +19,7 @@ h1{
     display: flex;
     flex-direction: column;
     gap: 8px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 /* bolha do usario */
@@ -31,24 +31,24 @@ h1{
     border-radius: 15px;
     max-width: 70%;
     margin: 5px;
-    box-shadow: 0px 2px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.15);
 }
 
 /*bolha AIri */
-.bot{
-    align-self:flex-start;
-    background-color:hotpink;
+.bot {
+    align-self: flex-start;
+    background-color: hotpink;
     color: white;
     padding: 10px 15px;
     border-radius: 15px;
     max-width: 70%;
     margin: 5px;
-    box-shadow: 0px 2px 5px rgb(0,0,0,0.2);
+    box-shadow: 0px 2px 5px rgb(0, 0, 0, 0.2);
     white-space: pre-line;
 }
 
 #enviar {
-    font-size: 18px;    
+    font-size: 18px;
     border-radius: 10px;
     padding: 10px;
     width: 90px;
@@ -57,7 +57,7 @@ h1{
     cursor: pointer;
 }
 
-#mensagem{
+#mensagem {
     border-radius: 25px;
     width: 250px;
     padding: 15px;
@@ -65,7 +65,7 @@ h1{
     outline: none;
 }
 
-body{
+body {
     max-width: 700px;
     margin: auto;
     padding: 20px;
