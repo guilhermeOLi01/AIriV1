@@ -131,8 +131,25 @@ else if (mensagem=="criador"){
 }
 
 else{
-    resposta = "desculpe,mestre. ainda não aprendi sobre esse assunto";
+   
+    let respostaServidor = await fetch(
+        "http://localhost:3000/chat",
+        {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                mensagem: mensagem
+            })
+        }
+    );
+    let dados = await respostaServidor.json();
+
+    resposta = dados.resposta;
 }
+
+
 
 setTimeout(function(){
 
